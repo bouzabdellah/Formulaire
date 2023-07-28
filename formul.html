@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="formul.css">
+</head>
+<body>
+  
+    <h2>Inscription</h2>
+    <div class="container"></div>
+    <form id="registrationForm">
+      <label for="email" style="color: aliceblue;">Email:</label>
+      <input type="email" id="email">
+
+      <label for="telephone" style="color: aliceblue;">Téléphone:</label>
+      <input type="tel" id="telephone" >
+
+      <label for="date" style="color: aliceblue;">Date:</label>
+      <input type="date" id="date" >
+
+      <label for="text" style="color: aliceblue;">Texte:</label>
+      <input type="text" id="text" >
+
+      <input type="submit" value="Submit" style="color: black;">
+      <input type="button" value="Clear" id="clearBtn">
+    </form>
+    <div id="response" style="display: none;"></div>
+    <div id="exampleInfo" style="display: none;">
+      <p>Example Information:</p>
+      <p>Email: example@example.com</p>
+      <p>Telephone: 0600000000</p>
+      <p>Date: 0000-00-00</p>
+      <p>Text: This is an example text.</p>
+    </div>
+  </div>
+
+  <script src="formul.js"></script>
+</body>
+</html>

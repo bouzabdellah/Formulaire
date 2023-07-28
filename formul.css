@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(sky-with-clouds-5.jpg);
+  background-repeat: no-repeat;
+}
+
+
+h2 {
+  text-align: center;
+  color: #151515; /* Blue-purple color for the form heading */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  background-color: #e7e1e1;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%; /* Make the inputs full width */
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: #60dcd0; /* Blue-purple color for the Submit button */
+  color: #fff; /* White text color for the Submit button */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #60dcd0; /* Darker shade of blue-purple on hover */
+}
+
+#response {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #e1e1e1; /* Light gray background color for the response div */
+}
+
+#exampleInfo {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #e1e1e1; /* Light gray background color for the example info div */
+  cursor: pointer;
+}
+
+#exampleInfo p {
+  color: #60dcd0; /* Purple color for the example info paragraphs */
+}
+
+.error-message {
+  color: #de0c0c; /* couleur de message d'erreur*/
+  font-size: 12px; /* Adjust font size of error messages */
+  margin-top: 5px; /* Add some space between the input field and the error message */
+}
+
